@@ -67,8 +67,8 @@ int division(int number1, int number2){
 // Test function
 
 void test(int level, int *point){
-	int operation, result, answer, number1, number2;
-	for(int i=0; i<10; i++){
+	int i, operation, result, answer, number1, number2;
+	for(i=0; i<10; i++){
 		// Determine the range of numbers based on the level
 		
 		int max= 10 + (level*10);
